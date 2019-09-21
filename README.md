@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Projeto Crypto Wallet v.1**
 
-Things you may want to cover:
+*  Desenvolvido em Ruby on Rails
+*  Aplicando o MVC
+*  DRY
+*  Helpers
+*  E todos as boas praticas
+*  ...
+  
 
-* Ruby version
+Faltando ainda a parte de testes que sera aplicada na V.2, porem cotendo suas validacoes.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**V2 contera Implementado...**
+*  Rspec
+*  Guard-rspec
+*  Capybara
+*  Simplecov
+*  ...
