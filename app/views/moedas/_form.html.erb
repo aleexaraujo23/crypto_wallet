@@ -1,0 +1,39 @@
+<%= form_with(model: moeda, local: true) do |form| %>
+  <% if moeda.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(moeda.errors.count, "error") %> prohibited this moeda from being saved:</h2>
+
+      <ul>
+      <% moeda.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :descricao %>
+    <%= form.text_field :descricao %>
+  </div>
+
+  <div class="field">
+    <%= form.label :"Sigla" %>
+    <%= form.text_field :acronimo %>
+  </div>
+
+  <div class="field">
+
+    <%= form.label :url_image %>
+    <%= form.text_field :url_image %>
+    <%#= image_tag moeda.url_image, width:25, heidth:25 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :valor_reais %>
+    <%= form.text_field :valor_reais %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

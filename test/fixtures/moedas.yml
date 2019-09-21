@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descricao: MyString
+  acronimo: MyString
+  url_image: MyString
+  valor_reais: MyString
+
+two:
+  descricao: MyString
+  acronimo: MyString
+  url_image: MyString
+  valor_reais: MyString

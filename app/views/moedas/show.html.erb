@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @moeda.descricao %>
+</p>
+
+<p>
+  <strong>Acronimo:</strong>
+  <%= @moeda.acronimo %>
+</p>
+
+<p>
+  <strong>Url image:</strong>
+  <%= image_tag @moeda.url_image, width:25, heidth:25 %>
+<p>
+  <strong>Valor reais:</strong>
+  <%= @moeda.valor_reais %>
+</p>
+
+<%= link_to 'Editar', edit_moeda_path(@moeda) %> |
+<%= link_to 'Voltar', moedas_path %>
