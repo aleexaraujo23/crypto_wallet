@@ -16,7 +16,7 @@ Sistema de Gerenciamento de Crypto moedas.
 
 Faltando ainda a parte de testes que sera aplicada na V.2, porem cotendo suas validacoes.
 
-**V2 contera Implementado...**
+**V2 conterá Implementado...**
 *  Rspec
 *  Guard-rspec
 *  Capybara
