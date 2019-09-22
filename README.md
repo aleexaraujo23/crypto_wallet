@@ -9,7 +9,8 @@ Sistema de Gerenciamento de Crypto moedas.
 *  Aplicando o MVC
 *  DRY
 *  Helpers
-*  E todos as boas praticas
+*  Clean code
+*  
 *  ...
   
 
