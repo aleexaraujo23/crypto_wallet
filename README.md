@@ -23,3 +23,10 @@ Faltando ainda a parte de testes que sera aplicada na V.2, porem cotendo suas va
 *  Simplecov
 *  Layout
 *  ...
+  
+
+**Instruções para Executar em Ambiente de Desenvolvimento**
+
+1. Execute o  `bundle install` para Atualizar as Gems no Projeto
+2. Execute o `rails dev:setup` para migrar o DB e Inserir as Informações
+3. Execute o `rails s` para subir o Servidor
