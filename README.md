@@ -10,7 +10,6 @@ Sistema de Gerenciamento de Crypto moedas.
 *  DRY
 *  Helpers
 *  Clean code
-*  
 *  ...
   
 
